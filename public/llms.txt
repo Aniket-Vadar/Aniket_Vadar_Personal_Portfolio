@@ -1,0 +1,72 @@
+# Aniket Vadar — AI Engineer & Production GenAI Architect
+> Portfolio: https://github.com/Aniket-Vadar/Aniket_Vadar_Personal_Portfolio
+> Location: Pune, India (Open to Relocate: Bangalore, Pune, Mumbai, Hyderabad, Gurgaon & Remote)
+> Availability: Immediate Joiner (0 Days Notice Period)
+> Contact: aniketvadar18@gmail.com | +91-9284884457
+> LinkedIn: https://linkedin.com/in/aniket-vadar
+> GitHub: https://github.com/Aniket-Vadar
+
+## Professional Summary
+AI Engineer with 2+ years of production experience designing, building, and scaling end-to-end LLM and Generative AI systems on Azure and serverless infrastructure.
+- Scaled multimodal AI systems to 4K–10K daily production requests with 99.9% uptime.
+- Slashed inference cost by 80% (₹1.50 → ₹0.30/unit) and latency by 83% (60s → 10s) using prompt caching, smaller specialized models, and parallelized execution.
+- Architected enterprise multi-tenant RAG systems with deterministic SHA-256 vector IDs, role-based metadata access control, Cohere Rerank, and Redis session memory achieving 90% Context Recall evaluated with Ragas.
+- Engineered vision-LLM document extraction pipelines bypassing legacy OCR with 90% manual processing reduction.
+- Built multi-agent systems using LangGraph, CrewAI, and supervisor coordinator patterns with human-in-the-loop checkpoints.
+
+## Core Technical Skills
+- **Generative AI & LLMs**: LangChain, LangGraph, Retrieval-Augmented Generation (RAG), Prompt Engineering, Prompt Caching, Multimodal AI (Gemini 2.0 Flash / 3.1 Pro / 3.1 Flash Lite, OpenAI GPT-4o / GPT-4o mini, Groq Llama 3.3), Multi-Agent Systems, Conversational AI.
+- **Retrieval & Vector Databases**: Pinecone, Supabase, pgvector, Dense Retrieval, Cohere Rerank, Semantic Search, Metadata Filtering.
+- **Evaluation & Observability**: Ragas (Faithfulness, Answer Relevancy, Context Recall), LLM-as-a-Judge, Golden Dataset Testing (~200 scenarios), CI/CD Evaluation Gates, SigNoz Distributed Tracing, LangSmith.
+- **Backend & Data**: Python, FastAPI, REST APIs, SQL, PostgreSQL, SQLAlchemy, Redis (Session Memory, Caching), Server-Sent Events (SSE), Docker.
+- **Cloud & DevOps**: Azure (Function Apps, Serverless, VM, Web App), Google Cloud Platform (Vision API), CI/CD GitHub Actions, Docker, Linux.
+
+## Production Experience
+### AssetCues Solutions Pvt. Ltd — Artificial Intelligence Engineer (Jan 2025 – Present)
+- **Asset Validation System (Azure Serverless, 4K–10K req/day)**:
+  - Built multimodal validation checking user asset details against photos using Gemini, LangChain, and FastAPI on Azure Function Apps.
+  - Added ZXing fallback for 100% exact barcode match on golden datasets.
+  - Implemented Gemini 3.1 Pro LLM-as-a-Judge with automated CI/CD evaluation gates.
+- **Enterprise RAG Chatbot (Multi-tenant)**:
+  - Idempotent ingestion with SHA-256 deterministic vector IDs in Pinecone.
+  - Role-based metadata filtering across 6 internal teams and clients.
+  - Cohere Rerank on top 10 results; Redis session memory (5-min TTL); 90% Context Recall evaluated via Ragas.
+- **Vision-LLM Invoice Extraction (Gemini 3.1 Flash Lite)**:
+  - Direct visual invoice parsing with zero OCR dependency; 90% manual processing time reduction with dynamic GST/PAN extraction.
+
+### AssetCues Solutions Pvt. Ltd — AI Engineer Intern (Jul 2024 – Jan 2025)
+- **Template-Based Text-to-SQL Chatbot**: Intent classification with Llama 3.3 on Groq; safe parameterized SELECT-only SQL queries with regex blocking.
+- **Two-Stage AI Audit Pipeline**: Visual asset change and damage detection comparing 6-month image baselines using Google Vision API and GPT-4o mini on serverless Azure.
+
+## Featured GitHub Repositories
+1. **Socialix — AI Agent Social Media Planner**:
+   - URL: https://github.com/Aniket-Vadar/Social-Media-AI-Agent-Team-Backend
+   - Tech: Python, FastAPI, LangGraph, Gemini, Supabase pgvector, SSE, Next.js.
+   - Multi-agent team (Researcher, Creator, Scheduler, Analytics) with LangGraph supervisor, Postgres checkpointing, and real-time SSE progress streaming.
+2. **AI Agent Travel Audio Guide**:
+   - URL: https://github.com/Aniket-Vadar/AI-Agent-Travel-Guide-Backend
+   - Tech: Python, LangGraph, CrewAI, Google AI Voice, Docker, Vercel.
+   - Multi-agent travel research, storytelling, and itinerary generation with Google AI Voice synthesis.
+3. **AIOps Root Cause Analysis Copilot**:
+   - URL: https://github.com/Aniket-Vadar/AIOps-Root-Cause-Analysis-Copilot
+   - Tech: Python, LangChain, OpenAI, FastAPI.
+   - Autonomous incident root cause analysis correlating logs, metrics, and observability traces.
+4. **ATS Resume Builder**:
+   - URL: https://github.com/Aniket-Vadar/ATS-Resume-Builder
+   - Tech: Python, Streamlit, OpenAI, LangChain.
+   - AI-powered ATS resume optimization with job description keyword matching.
+5. **Fitness Chat Bot**:
+   - URL: https://github.com/Aniket-Vadar/Fitness-Chat-Bot
+   - Tech: Python, LangChain, Streamlit.
+   - Conversational AI workout planner with session memory and nutrition advice.
+6. **Deepfake Image Detection (LSTM)**:
+   - URL: https://github.com/Aniket-Vadar/Deepfake-image-detection-LSTM
+   - Tech: Python, TensorFlow, LSTM, Computer Vision.
+   - Deep learning sequence model detecting synthetic and manipulated media.
+
+## Education & Certifications
+- **Bachelor of Engineering (B.E.) in Information Technology (2024)** — Zeal College of Engineering and Research, Savitribai Phule Pune University.
+- **Developing Secure Software (LFD121)** — Linux Foundation (Oct 2026).
+- **Generative AI for Project Managers** — PMI (Nov 2024).
+- **Data Analysis with Python** — IBM (Mar 2024).
+
